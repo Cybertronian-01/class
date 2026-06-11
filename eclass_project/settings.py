@@ -4,8 +4,8 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = 'django-insecure-fallback-key-for-development-2026'
-DEBUG = True
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+DEBUG = False
+ALLOWED_HOSTS = ['Cybertronian.pythonanywhere.com', '127.0.0.1', 'localhost']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
